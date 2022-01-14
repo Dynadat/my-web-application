@@ -1,6 +1,10 @@
 from flask import Flask, render_template, request, redirect
 import csv
 
+# This file is the server program that 
+# serves data to incoming requests from the
+# web page.
+
 app = Flask(__name__)
 print(__name__)
 
